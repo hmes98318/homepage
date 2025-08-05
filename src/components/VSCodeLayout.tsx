@@ -79,7 +79,7 @@ const VSCodeLayout: React.FC<VSCodeLayoutProps> = () => {
     const sidebarIcons = [
         { icon: <VscFiles className="w-6 h-6" />, active: isSidebarOpen, onClick: () => setIsSidebarOpen(!isSidebarOpen) },
         { icon: <VscSearch className="w-6 h-6" />, active: false },
-        { icon: <AiOutlineGithub className="w-6 h-6" />, active: false, onClick: () => window.open('https://github.com/hmes98318') },
+        { icon: <AiOutlineGithub className="w-6 h-6" />, active: false, onClick: () => window.open('https://github.com/hmes98318/homepage') },
         { icon: <VscExtensions className="w-6 h-6" />, active: false }
     ];
 

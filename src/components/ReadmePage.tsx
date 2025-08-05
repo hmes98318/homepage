@@ -17,17 +17,6 @@ const ReadmePage = () => {
                             <p className="text-lg md:text-xl text-[#969696] leading-relaxed">
                                 {`Full-stack Developer & Infrastructure Engineer`}
                             </p>
-                            {/* <div className="flex items-center text-base">
-                                <span className="mr-2 text-[#969696]">🔗 GitHub:</span>
-                                <a 
-                                    href="https://github.com/hmes98318" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    className="text-[#007acc] hover:text-[#1e90ff] underline font-medium transition-colors duration-300"
-                                >
-                                    hmes98318
-                                </a>
-                            </div> */}
                             <p className="text-[#cccccc] leading-relaxed text-base md:text-lg max-w-3xl">
                                 {`I'm a passionate developer with expertise in both frontend and backend technologies.`}
                                 {`I love building scalable applications and managing infrastructure to support modern development workflows.`}
@@ -96,8 +85,7 @@ const ReadmePage = () => {
                     <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-white">{`GitHub Activity`}</h2>
                     <div className="bg-[#252526] border border-[#3c3c3c] rounded-lg p-6 hover:border-[#007acc] hover:shadow-lg hover:shadow-[#007acc]/10 transition-all duration-300">
                         <div>
-                            {/* <h3 className="text-base font-medium mb-4 text-[#969696]">Contribution Snake Animation</h3> */}
-                            <div className="bg-[#1e1e1e] rounded-lg p-6 overflow-hidden">
+                            <div className="bg-[#1e1e1e] overflow-hidden">
                                 <picture>
                                     <source
                                         media="(prefers-color-scheme: dark)"
@@ -125,7 +113,7 @@ const ReadmePage = () => {
                                 staying up-to-date with industry trends.`}
                             </p>
                             <p className="text-[#cccccc] leading-relaxed text-base md:text-lg">
-                                {`My experience spans from building responsive web applications to designing and implementing
+                                {`My experience spans from building full-stack web development to designing and implementing
                                 robust infrastructure solutions. I enjoy the challenge of optimizing performance, ensuring
                                 security, and creating maintainable code that scales with business needs.`}
                             </p>
